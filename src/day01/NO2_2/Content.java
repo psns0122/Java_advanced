@@ -1,4 +1,4 @@
-package day01.homework2.NO2_2;
+package day01.NO2_2;
 
 public abstract class Content {
     // 생성자

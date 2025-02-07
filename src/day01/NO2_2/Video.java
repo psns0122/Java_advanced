@@ -1,4 +1,4 @@
-package day01.homework2.NO2_2;
+package day01.NO2_2;
 
 public class Video extends Content {
     // 생성자

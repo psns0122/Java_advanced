@@ -1,11 +1,11 @@
-package day01.homework2.NO2_1;
+package day01.NO2_1;
 
-public class Coffee extends Beverage {
+public class Tea extends Beverage {
     // 생성자
-    public Coffee (String name) {
+    public Tea (String name) {
         // 부모 클래스 생성자 호출
         super(name);
-        Coffee.amount++;
+        Tea.amount++;
         this.calcPrice();
     }
 
@@ -13,14 +13,14 @@ public class Coffee extends Beverage {
     @Override
     public void calcPrice() {
         switch(this.getName()) {
-            case "Americano":
+            case "LemonTea":
                 this.price = 1500;
                 break;
-            case "CafeLatte":
-                this.price = 2500;
+            case "ginsengTea":
+                this.price = 2000;
                 break;
-            case "Cappuccino":
-                this.price = 3000;
+            case "redginsengTea":
+                this.price = 2500;
                 break;
         }
     }
@@ -28,11 +28,11 @@ public class Coffee extends Beverage {
     // 멤버 변수
     static int amount;
     public int getAmount() {
-        return Coffee.amount;
+        return Tea.amount;
     }
 
     public void setAmount(int amount) {
-        Coffee.amount = amount;
+        Tea.amount = amount;
     }
 
 }

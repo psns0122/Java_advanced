@@ -1,4 +1,4 @@
-package day01.homework2.NO2_1;
+package day01.NO2_1;
 
 public class CoffeShop {
     public static void main(String[] args) {

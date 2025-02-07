@@ -1,4 +1,4 @@
-package day01.homework2.NO1;
+package day01.NO1;
 
 public class Circle extends Shape {
     // 생성자

@@ -1,4 +1,4 @@
-package day01.homework2.NO3;
+package day01.NO3;
 
 public abstract class Wheeler {
     protected int velocity;
