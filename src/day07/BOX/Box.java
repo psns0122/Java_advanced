@@ -10,6 +10,8 @@ public class Box<T> {
         this.item1 = item;
     }
 
+    public Box() { }
+
     public T getItem1() {
         return item1;
     }
@@ -21,5 +23,9 @@ public class Box<T> {
     @Override
     public String toString() {
         return "item1=" + item1;
+    }
+
+    public boolean isOfType(Class<?> clazz){
+        return clazz.isInstance(item1);
     }
 }

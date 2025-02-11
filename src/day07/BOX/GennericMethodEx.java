@@ -8,12 +8,8 @@ public class GennericMethodEx {
         String[] strs = {"aaa", "bbb", "ccc"};
         Box[] x = new Box[]{new Box<>(4), new Box<>("4"), new Box<>(4.0), new Box<>(true)};
 
-        Box<Integer> num1 = new Box<>(2);
-        Box<Integer> num2 = new Box<>(5);
-        Box<Integer> num3 = new Box<>(2);
-
-        System.out.println(BoundedGenericMethod.bigger(num1, num2));
-        System.out.println(BoundedGenericMethod.bigger(num1, num3));
+        System.out.println(BoundedGenericMethod.bigger(1, 2));
+        System.out.println(BoundedGenericMethod.bigger(3, -5));
 
         printArray(nums);
         printArray(strs);

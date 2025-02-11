@@ -19,6 +19,4 @@ public class Student {
     public static StudentBuilder StudentBuilder(int id, String name, String major) {
         return builder().id(id).name(name).major(major);
     }
-
-
 }
