@@ -15,7 +15,7 @@ public class Student {
     private String phoneNumber;
     private String address;
 
-    // lombok 빌더를 사용하기 1
+    // lombok 빌더를 사용하기
     public static StudentBuilder StudentBuilder(int id, String name, String major) {
         return builder().id(id).name(name).major(major);
     }
