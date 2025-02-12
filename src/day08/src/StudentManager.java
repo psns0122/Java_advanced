@@ -1,6 +1,6 @@
 package day08.src;
 
-import StudentIOInterface.StudentIO;
+import day08.src.StudentIOInterface.StudentIO;
 
 import java.util.ArrayList;
 import java.util.Collections;
